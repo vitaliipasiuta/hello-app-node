@@ -3,7 +3,7 @@ const axios = require('axios');
 const os = require('os');
 
 const app = express();
-const port = 80;
+const port = 3000;
 
 const azURL = 'http://169.254.169.254/latest/meta-data/placement/availability-zone';
 const hostname = os.hostname();
